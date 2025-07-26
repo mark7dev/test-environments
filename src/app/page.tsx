@@ -27,6 +27,9 @@ export default function Home() {
           <li className="tracking-[-.01em]">
             Testing deployments.
           </li>
+          <li className="tracking-[-.01em]">
+            Testing update PR branches.
+          </li>
         </ol>
         <p>Add message</p>
         <div className="flex gap-4 items-center flex-col sm:flex-row">
