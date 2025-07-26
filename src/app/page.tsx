@@ -30,6 +30,9 @@ export default function Home() {
           <li className="tracking-[-.01em]">
             Testing update PR branches.
           </li>
+          <li className="tracking-[-.01em]">
+            Testing rules for branches.
+          </li>
         </ol>
         <h1>UPDATED</h1>
         <div className="flex gap-4 items-center flex-col sm:flex-row">
