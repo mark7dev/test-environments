@@ -1,0 +1,12 @@
+name: Basic Check
+
+on:
+  pull_request:
+    branches: [ main, staging, development ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a basic command
+        run: echo "✅ Todo OK"
